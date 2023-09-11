@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  /* background-color: rgb(38, 33, 45); */
+  display: flex;
+  align-items: center;
+}
+.container div {
+  width: 50%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 100px;
+  text-align: center;
+}
+p {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+a {
+  padding: 5px 30px;
+  border: solid 3px black;
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 488px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+  .container div {
+    width: 100%;
+  }
+}

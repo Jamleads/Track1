@@ -4,20 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
       <div>
         <h1 class="slack-name" data-testid="slackUserName">Jamleads</h1>
         <p class="current-day" data-testid="currentayOfTheWeek"></p>
-        <p class="track" data-testid="myTrack">Frontend</p>
-        <p class="current-time" data-testid="currentUTCTime">js time</p>
-        <a href="" data-testid="githubURL">github (source code of this work)</a>
+        <p class="track" data-testid="myTrack">Frontend Track</p>
+        <p class="current-time" data-testid="currentUTCTime"></p>
+        <a
+          href="https://github.com/Jamleads/Track1"
+          target="_blank"
+          data-testid="githubURL"
+          >GitHub</a
+        >
       </div>
 
       <div>
         <img
           src="./IMG_1844.jpg"
+          width="100%"
           alt="jamleads"
           class="slack-profile-picture"
           data-testid="slackDisplayImage"
